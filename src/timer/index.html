@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../../public/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+
+    <title>Final Project</title>
+
+</head>
+<body>
+<!--Адаптивное выпадающее меню-->
+<div class="new-mobile-menu">
+    <!--Вывод меню-->
+    <div class="site-navigation-responsive">
+        <nav id="site-navigation-mobile">
+            <h3>Навигация</h3>
+            <ul class="responsive-menu">
+                <li class="current"><a href="..\..\public\index.html">Инфо</a></li>
+
+                <li><a href="./index.html">Таймер</a></li>
+
+                <li><a href="../gallery/index.html">Галерея</a></li>
+
+                <li><a href="../MSG/index.html">Чат</a></li>
+
+                <li><a href="#">Тыкательные игры</a>
+                    <ul class="sub-menu-responsive	">
+                        <li><a href="../pilots/index.html">Братья пилоты</a></li>
+                        <li><a href="../mole/index.html">Игра в крота</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--end. Адаптивное меню-->
+
+<div class = "box">
+<div class ="time">
+    <div class="name"> <b>Таймер на 15 сек: </b></div>
+    <div class="timing">00:00:00</div>
+</div>
+
+    <div class="buttons">
+        <button class="knopka" id=play><b>Старт</b></button>
+        <button class="knopka" id=stop><b>Стоп</b></button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

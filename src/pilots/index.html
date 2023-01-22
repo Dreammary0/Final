@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../../public/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+
+    <title>Final Project</title>
+</head>
+<body>
+<!--Адаптивное выпадающее меню-->
+<div class="new-mobile-menu">
+    <!--Вывод меню-->
+    <div class="site-navigation-responsive">
+        <nav id="site-navigation-mobile">
+            <h3>Навигация</h3>
+            <ul class="responsive-menu">
+                <li class="current"><a href="..\..\public\index.html">Инфо</a></li>
+
+                <li><a href="../timer/index.html">Таймер</a></li>
+
+                <li><a href="../gallery/index.html">Галерея</a></li>
+
+                <li><a href="../MSG/index.html">Чат</a></li>
+
+                <li><a href="#">Тыкательные игры</a>
+                    <ul class="sub-menu-responsive	">
+                        <li><a href="./index.html">Братья пилоты</a></li>
+                        <li><a href="../mole/index.html">Игра в крота</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--end. Адаптивное меню-->
+
+    <h1>The Pilots Brothers' refrigerator</h1>
+    <div class="help"><b> Подсказка🡇</b>
+        <div class="magic">Запомните положение красных огней => Переключите их <br>
+         Действие повторить...)
+     </div>
+    </div>
+
+<div class="grid">
+    <div class="square" line="1" col="1" id="1" ></div>
+    <div class="square" line="1" col="2" id="2"></div>
+    <div class="square" line="1" col="3" id="3"></div>
+    <div class="square" line="1" col="4" id="4"></div>
+    <div class="square" line="2" col="1" id="5"></div>
+    <div class="square" line="2" col="2" id="6"></div>
+    <div class="square" line="2" col="3" id="7"></div>
+    <div class="square" line="2" col="4" id="8"></div>
+    <div class="square" line="3" col="1" id="9"></div>
+    <div class="square" line="3" col="2" id="10"></div>
+    <div class="square" line="3" col="3" id="11"></div>
+    <div class="square" line="3" col="4" id="12"></div>
+    <div class="square" line="4" col="1" id="13"></div>
+    <div class="square" line="4" col="2" id="14"></div>
+    <div class="square" line="4" col="3" id="15"></div>
+    <div class="square" line="4" col="4" id="16"></div>
+</div>
+
+<div class="buttons">
+    <button class="knopka" id=play><b>Старт</b></button>
+    <button class="knopka" id=stop><b>Стоп</b></button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

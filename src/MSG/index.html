@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="icon" href="../../public/favicon.png">
+    <title>Final Project</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://dir.by/example_lib/jquery/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+<!--Адаптивное выпадающее меню-->
+<div class="new-mobile-menu">
+    <!--Вывод меню-->
+    <div class="site-navigation-responsive">
+        <nav id="site-navigation-mobile">
+            <h3>Навигация</h3>
+            <ul class="responsive-menu">
+                <li class="current"><a href="..\..\public\index.html">Инфо</a></li>
+
+                <li><a href="../timer/index.html">Таймер</a></li>
+
+                <li><a href="../gallery/index.html">Галерея</a></li>
+
+                <li><a href="../MSG/index.html">Чат</a></li>
+
+                <li><a href="#">Тыкательные игры</a>
+                    <ul class="sub-menu-responsive	">
+                        <li><a href="../pilots/index.html">Братья пилоты</a></li>
+                        <li><a href="../mole/index.html">Игра в крота</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--end. Адаптивное меню-->
+
+<div class="wrapper">
+    <div class="menu">
+        <p class="avatar"><img src="https://datavyhoda.ru/wp-content/uploads/2019/02/avatar-3-data-vyhoda.jpg" width="80" height="80"alt="Avatar"></p>
+        <h1 class="welcome"><b>Пользователь </b></h1>
+    </div>
+    <div class="chatbox">
+        <div class="mes">
+            <div class="message"></div>
+        </div>
+    </div>
+    <div class="input">
+        <label>
+            <input class="usermsg" placeholder = "Напишите сообщение...">
+        </label>
+        <div class="button">
+<!--            <button id="button" type="button" onclick="Click">Отправить</button>-->
+            <input type='button' id="button" value='Отправить'>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

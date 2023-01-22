@@ -1,0 +1,24 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "bild": "parcel buil public/index.html",
+    "type":"module",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "gulp": "^4.0.2",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.47.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "src": "^1.1.2"
+  }
+}

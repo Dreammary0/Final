@@ -1,0 +1,90 @@
+/**Раскрывающееся меню**/
+.site-navigation-responsive  h3, .mobile-menu-button{
+    display:none;
+}
+.site-navigation-responsive ul  {
+    background:#C4A272;  /**основной фон**/
+    min-height:50px;
+}
+.site-navigation-responsive ul li{
+    list-style:none;
+    float:left;
+    text-align:center;
+}
+.site-navigation-responsive ul li a{
+    padding:15px 25px;
+    text-decoration:none;
+    display:inline-block;
+    color:#242220;  /**шрифт **/
+}
+.site-navigation-responsive ul li a:hover{
+    color:#611311; /**цвет шрифта при наведении в основном меню**/
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background:#945923; /**цвет фона при наведении в основном меню**/
+
+    /**кнопка инфо**/
+}
+.site-navigation-responsive ul .current a {
+    background:#C4A272;
+    color:#242220;
+}
+
+/**Выпадающее меню**/
+.site-navigation-responsive ul > li  {
+    position:relative;
+}
+.site-navigation-responsive ul li ul{
+    position:absolute;
+    top:49px;
+    min-width:200px;
+    background:#945923;
+    border:1px solid #C4A272;
+    color:#611311;
+    overflow:hidden;
+    padding:0px;
+    opacity:0;
+    left:-999999px;
+    z-index:999;
+}
+.site-navigation-responsive ul li:hover ul{
+    opacity:1;
+    left:0px;
+    -webkit-transition: 0.25s linear opacity;
+    -moz-transition: 0.25s linear opacity;
+    transition: 0.25s linear opacity;
+}
+.site-navigation-responsive ul li ul li {
+    display:block;
+    width:100%;
+    margin:0px;
+    text-align:left;
+}
+.site-navigation-responsive ul li ul li a {
+    display:inline-block;
+    padding: 10px 10px;
+    width:100%;
+    color:#d1c7b2;
+}
+.site-navigation-responsive ul li ul li a:hover {
+    background:#d1c7b2;
+    color:#242220}
+html{
+    font-family: sans-serif;
+
+}
+body{
+    background: #ededeb;
+
+}
+.infome{
+    font-family: Trattatello, fantasy;
+    background: linear-gradient(-45deg, #d5bb91, #c0993a, #bcd990, #8fc237);
+    position: relative;
+    text-align: center;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
